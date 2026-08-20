@@ -1,0 +1,10 @@
+# Duplicate deploy copy — not needed in git
+_deploy/
+
+# Raw source PDFs (huge; the site uses the compressed copies in assets/)
+Case study design of a new coordination Platform for satellite operators.pdf
+COP_Case_Study_Installed-Base.pdf
+COP_Homepage_Redesign_Case_Study_v2.pptx.pdf
+Space Weather Widget.pdf
+
+.DS_Store

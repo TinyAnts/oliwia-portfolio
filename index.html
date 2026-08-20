@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Oliwia Konieczna — Product & UX/UI Designer</title>
+<meta name="description" content="Oliwia Konieczna — CSPO-certified product and UX/UI designer. Four years on B2B platforms, SaaS tools, and enterprise portals. Turning complexity into product direction." />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Oliwia Konieczna — Product & UX/UI Designer" />
+<meta property="og:description" content="CSPO-certified product and UX/UI designer. Turning complexity into product direction." />
+<meta property="og:url" content="https://oliwiakonieczna.info" />
+<meta property="og:image" content="https://oliwiakonieczna.info/assets/og.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,300;9..144,0,400;9..144,0,500;9..144,1,300;9..144,1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#f6f3ee;--paper:#fbf9f5;--ink:#1a1a1a;--ink-soft:#4a4a48;--ink-mute:#6b665d;--rule:#d9d4c8;--accent:#8a3a1f;--serif:'Fraunces','Cormorant Garamond',Georgia,serif;--sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);font-weight:400;line-height:1.65;font-size:17px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
+::selection{background:var(--ink);color:var(--bg)}
+.sig{color:var(--accent);display:inline-block;transition:transform .4s ease}
+.sig:hover,a:hover .sig{transform:rotate(72deg)}
+.nav{position:fixed;top:0;left:0;right:0;padding:22px 48px;display:flex;justify-content:space-between;align-items:center;background:rgba(246,243,238,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);z-index:100;border-bottom:1px solid transparent;transition:border-color .3s ease}
+.nav.scrolled{border-bottom-color:var(--rule)}
+.nav .mark{font-family:var(--serif);font-size:18px;font-weight:500;letter-spacing:-0.01em;display:flex;align-items:center;gap:10px}
+.nav ul{list-style:none;display:flex;gap:36px}
+.nav a{color:var(--ink-soft);text-decoration:none;font-size:14px;letter-spacing:0.02em;transition:color .2s}
+.nav a:hover{color:var(--ink)}
+.container{max-width:1180px;margin:0 auto;padding:0 48px}
+.hero{min-height:92vh;display:flex;flex-direction:column;justify-content:center;padding:140px 48px 80px;max-width:1180px;margin:0 auto;position:relative}
+.hero-mark{font-size:22px;color:var(--accent);margin-bottom:28px;animation:gentle-spin 14s linear infinite;display:inline-block;transform-origin:center;width:24px}
+@keyframes gentle-spin{to{transform:rotate(360deg)}}
+.hero .eyebrow{font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:var(--ink-mute);margin-bottom:28px}
+.hero h1{font-family:var(--serif);font-weight:300;font-size:clamp(48px,7vw,96px);line-height:1.02;letter-spacing:-0.03em;margin-bottom:32px;color:var(--ink)}
+.hero h1 em{font-style:italic;font-weight:300;color:var(--accent)}
+.hero .lede{font-size:21px;line-height:1.5;max-width:620px;color:var(--ink-soft);font-weight:300}
+.hero .meta{display:flex;gap:36px;margin-top:56px;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-mute)}
+.hero .meta span{display:flex;align-items:center;gap:8px}
+.dot{width:6px;height:6px;border-radius:50%;background:#4caf50;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+.scroll-cue{position:absolute;bottom:32px;left:48px;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--ink-mute);display:flex;align-items:center;gap:12px}
+.scroll-cue .line{width:32px;height:1px;background:var(--ink-mute);position:relative;overflow:hidden}
+.scroll-cue .line::after{content:'';position:absolute;inset:0;background:var(--accent);width:50%;animation:scroll-line 2.4s ease-in-out infinite}
+@keyframes scroll-line{0%{transform:translateX(-100%)}100%{transform:translateX(200%)}}
+.marquee{background:var(--paper);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);overflow:hidden;padding:36px 0}
+.marquee-track{display:flex;gap:64px;animation:marquee-roll 44s linear infinite;white-space:nowrap;width:max-content}
+.marquee-item{font-family:var(--serif);font-style:italic;font-size:32px;font-weight:300;letter-spacing:-0.01em;color:var(--ink-soft);display:flex;align-items:center;gap:64px}
+.marquee-item::after{content:'✦';color:var(--accent);font-size:16px;font-style:normal}
+@keyframes marquee-roll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+section{padding:120px 0}
+section+section{border-top:1px solid var(--rule)}
+.section-label{font-size:12px;letter-spacing:0.22em;text-transform:uppercase;color:var(--ink-mute);margin-bottom:48px;display:flex;align-items:center;gap:16px}
+.section-label::before{content:'';width:24px;height:1px;background:var(--ink-mute)}
+h2.display{font-family:var(--serif);font-weight:300;font-size:clamp(32px,4.5vw,54px);line-height:1.1;letter-spacing:-0.02em;margin-bottom:40px;max-width:800px}
+h2.display em{font-style:italic;color:var(--accent)}
+.about-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:80px;align-items:start}
+.portrait{aspect-ratio:3/4;background:linear-gradient(135deg,#e8e3d6 0%,#d4ccba 100%);border-radius:4px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;filter:grayscale(0.2) contrast(1.03);transition:filter .8s ease}
+.portrait:hover{filter:grayscale(0) contrast(1)}
+.portrait img{width:100%;height:100%;object-fit:cover;display:block}
+.portrait .ph-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:11px;letter-spacing:0.3em;color:var(--ink-mute);background:linear-gradient(135deg,#e8e3d6 0%,#d4ccba 100%)}
+.portrait img:not([src=""]) + .ph-fallback{display:none}
+.about-text p{margin-bottom:22px;color:var(--ink-soft);font-size:18px;line-height:1.7}
+.about-text p:first-of-type{font-family:var(--serif);font-size:24px;line-height:1.45;color:var(--ink);font-weight:400;margin-bottom:32px}
+.currently{margin-top:48px;padding:26px 30px;background:var(--paper);border-left:2px solid var(--accent);border-radius:0 4px 4px 0}
+.currently .lbl{font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--ink-mute);margin-bottom:18px;display:flex;align-items:center;gap:10px}
+.currently .lbl::after{content:'';width:5px;height:5px;border-radius:50%;background:var(--accent);animation:pulse 2.4s ease-in-out infinite}
+.currently dl{display:grid;gap:12px}
+.currently dl > div{display:flex;gap:16px;align-items:baseline}
+.currently dt{font-family:var(--serif);font-style:italic;color:var(--ink-mute);font-size:14px;min-width:100px;flex-shrink:0}
+.currently dd{font-size:15px;color:var(--ink)}
+.case-study{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-bottom:140px}
+.case-study:last-child{margin-bottom:0}
+.case-study:nth-child(even) .case-visual{order:2}
+.case-visual{aspect-ratio:4/3;border-radius:6px;position:relative;overflow:hidden;transition:transform .8s cubic-bezier(.16,.84,.30,1);background-size:cover;background-position:center top;background-color:#e3ddd0;border:1px solid var(--rule)}
+.case-study:hover .case-visual{transform:scale(1.012)}
+.case-visual.v1{background-image:url('assets/case-01.webp')}
+.case-visual.v2{background-image:url('assets/case-02.webp')}
+.case-visual.v3{background-image:url('assets/case-03.webp')}
+.case-visual.v4{background-image:url('assets/case-04.webp')}
+.case-link{display:block;position:relative;cursor:pointer;border-radius:6px}
+.case-overlay{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:flex-start;padding:20px;background:rgba(26,26,26,0);opacity:0;transition:opacity .4s ease,background .4s ease;border-radius:6px}
+.case-link:hover .case-overlay{opacity:1;background:rgba(26,26,26,0.3)}
+.case-overlay span{background:var(--paper);color:var(--ink);font-size:11px;letter-spacing:0.16em;text-transform:uppercase;padding:11px 20px;border-radius:100px;font-weight:500;transform:translateY(10px);transition:transform .4s ease}
+.case-link:hover .case-overlay span{transform:translateY(0)}
+.case-content h3 a{color:var(--ink);text-decoration:none;background-image:linear-gradient(var(--accent),var(--accent));background-size:0% 1px;background-repeat:no-repeat;background-position:left bottom;transition:background-size .4s ease,color .25s ease;padding-bottom:3px}
+.case-content h3 a:hover{color:var(--accent);background-size:100% 1px}
+.case-content .case-num{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--ink-mute);letter-spacing:0.04em;margin-bottom:18px}
+.case-content h3{font-family:var(--serif);font-weight:400;font-size:clamp(26px,2.6vw,34px);line-height:1.15;letter-spacing:-0.015em;margin-bottom:24px;color:var(--ink)}
+.case-problem{font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--ink-mute);margin-bottom:8px;margin-top:6px;display:flex;align-items:center;gap:8px}
+.case-problem::before{content:'';width:8px;height:1px;background:var(--accent)}
+.case-content p{font-size:16px;color:var(--ink-soft);line-height:1.7;margin-bottom:18px}
+.case-metric{display:flex;gap:48px;margin-top:32px;padding-top:28px;border-top:1px solid var(--rule)}
+.case-metric .num{font-family:var(--serif);font-size:36px;line-height:1;letter-spacing:-0.02em;margin-bottom:6px;display:block;color:var(--ink);font-weight:400}
+.case-metric .lbl{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-mute)}
+.case-tags{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}
+.case-tags span{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);padding:6px 14px;border:1px solid var(--rule);border-radius:100px;transition:border-color .2s,color .2s}
+.case-tags span:hover{border-color:var(--accent);color:var(--accent)}
+.cap-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:24px}
+.cap-col h3{font-family:var(--serif);font-size:26px;font-weight:400;margin-bottom:24px;letter-spacing:-0.01em}
+.cap-col h3 em{color:var(--accent);font-style:italic}
+.cap-col ul{list-style:none}
+.cap-col li{padding:14px 0;border-top:1px solid var(--rule);display:flex;justify-content:space-between;align-items:center;font-size:16px;color:var(--ink-soft);transition:padding-left .25s ease,color .25s ease}
+.cap-col li:hover{padding-left:10px;color:var(--ink)}
+.cap-col li:last-child{border-bottom:1px solid var(--rule)}
+.cap-col li span{font-size:12px;color:var(--ink-mute);letter-spacing:0.08em}
+.testimonials-section{background:var(--paper);padding:140px 0}
+.testimonials{display:grid;grid-template-columns:1fr 1fr 1fr;gap:56px;margin-top:56px}
+.testimonial::before{content:'"';font-family:var(--serif);font-style:italic;font-size:72px;line-height:0.7;color:var(--accent);display:block;margin-bottom:18px}
+.testimonial blockquote{font-family:var(--serif);font-size:19px;line-height:1.45;letter-spacing:-0.005em;color:var(--ink);margin-bottom:28px;font-weight:400}
+.testimonial .attr{border-top:1px solid var(--rule);padding-top:18px;font-size:13px;color:var(--ink-soft);line-height:1.45}
+.testimonial .attr strong{display:block;color:var(--ink);font-weight:500;margin-bottom:2px;font-size:14px}
+.contact{padding:140px 0 100px}
+.contact h2{font-family:var(--serif);font-weight:300;font-size:clamp(42px,6vw,80px);line-height:1.05;letter-spacing:-0.025em;margin-bottom:48px}
+.contact h2 em{font-style:italic;color:var(--accent)}
+.contact-email{font-family:var(--serif);font-size:clamp(24px,3vw,36px);color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:8px;display:inline-block;transition:border-color .25s,color .25s}
+.contact-email:hover{color:var(--accent);border-color:var(--accent)}
+.contact-links{display:flex;gap:36px;margin-top:64px;font-size:14px;letter-spacing:0.04em}
+.contact-links a{color:var(--ink-soft);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;transition:border-color .2s,color .2s}
+.contact-links a:hover{color:var(--ink);border-color:var(--ink)}
+footer{padding:32px 48px 92px;border-top:1px solid var(--rule);display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--ink-mute);letter-spacing:0.06em}
+footer .sig{font-size:14px}
+.to-top{position:fixed;bottom:32px;right:32px;width:48px;height:48px;border-radius:50%;background:var(--paper);border:1px solid var(--rule);color:var(--accent);font-size:18px;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .3s ease,transform .3s ease,border-color .2s,background .2s,color .2s;z-index:90}
+.to-top.visible{opacity:1;pointer-events:auto;transform:translateY(0)}
+.to-top:hover{border-color:var(--accent);background:var(--accent);color:var(--paper)}
+@media (max-width:820px){.nav{padding:18px 24px}.nav ul{gap:20px}.nav ul li:nth-child(3),.nav ul li:nth-child(4){display:none}.container{padding:0 24px}.hero{padding:120px 24px 100px}.scroll-cue{left:24px}.marquee-item{font-size:24px;gap:40px}.marquee-track{gap:40px}.about-grid{grid-template-columns:1fr;gap:40px}.portrait{max-width:320px}.case-study{grid-template-columns:1fr;gap:28px;margin-bottom:80px}.case-study:nth-child(even) .case-visual{order:0}.case-metric{gap:28px}.case-metric .num{font-size:28px}.cap-grid{grid-template-columns:1fr;gap:48px}.testimonials{grid-template-columns:1fr;gap:48px}.testimonials-section{padding:80px 0}section{padding:80px 0}.hero .meta{flex-wrap:wrap;gap:16px}.to-top{bottom:20px;right:20px;width:42px;height:42px}}
+.fade-up{opacity:0;transform:translateY(20px);animation:fadeUp .8s ease forwards}
+.fade-up:nth-child(2){animation-delay:.08s}
+.fade-up:nth-child(3){animation-delay:.16s}
+.fade-up:nth-child(4){animation-delay:.24s}
+.fade-up:nth-child(5){animation-delay:.32s}
+.fade-up:nth-child(6){animation-delay:.40s}
+@keyframes fadeUp{to{opacity:1;transform:translateY(0)}}
+@media (prefers-reduced-motion:reduce){.fade-up{animation:none;opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<nav class="nav" id="nav">
+<div class="mark"><span class="sig">✦</span> Oliwia Konieczna</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#work">Work</a></li>
+<li><a href="#capabilities">Capabilities</a></li>
+<li><a href="#testimonials">Testimonials</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<header class="hero">
+<div class="hero-mark fade-up">✦</div>
+<div class="eyebrow fade-up">Certified Scrum Product Owner (CSPO) · Product & UX · Based in Europe</div>
+<h1 class="fade-up">Turning complexity into<br>product <em>direction.</em></h1>
+<p class="lede fade-up">I'm Oliwia — a CSPO-certified product and UX/UI designer with four years on complex B2B platforms, SaaS tools, and enterprise portals. I turn fragmented stakeholder needs into clear product direction teams can actually build.</p>
+<div class="meta fade-up">
+<span><span class="dot"></span>Open to product & strategy roles</span>
+<span>Product · UX · Strategy</span>
+<span>2026</span>
+</div>
+<div class="scroll-cue fade-up"><span class="line"></span>Scroll</div>
+</header>
+<div class="marquee" aria-hidden="true">
+<div class="marquee-track">
+<span class="marquee-item">Discovery</span>
+<span class="marquee-item">User research</span>
+<span class="marquee-item">UX design</span>
+<span class="marquee-item">Product thinking</span>
+<span class="marquee-item">Design systems</span>
+<span class="marquee-item">Roadmap</span>
+<span class="marquee-item">Outcomes</span>
+<span class="marquee-item">Discovery</span>
+<span class="marquee-item">User research</span>
+<span class="marquee-item">UX design</span>
+<span class="marquee-item">Product thinking</span>
+<span class="marquee-item">Design systems</span>
+<span class="marquee-item">Roadmap</span>
+<span class="marquee-item">Outcomes</span>
+</div>
+</div>
+<section id="about">
+<div class="container">
+<div class="section-label">About</div>
+<div class="about-grid">
+<div class="portrait">
+<img src="assets/portrait.webp" alt="Oliwia Konieczna" onerror="this.style.display='none'" />
+<div class="ph-fallback">PORTRAIT</div>
+</div>
+<div class="about-text">
+<p>I'm a CSPO-certified UX/UI and product designer with four years building complex digital products — B2B platforms, SaaS tools, and enterprise customer portals. My work sits where UX, product discovery, stakeholder alignment, and Agile delivery meet.</p>
+<p>At Hitachi Energy I work on the Collaborative Operations Portal, a B2B platform used by internal and external users across multiple business units. The role spans product and design: information architecture, stakeholder workshops, usability testing, card sorting, requirements clarification, and close collaboration with business analysts, developers, and process owners.</p>
+<p>I translate fragmented business-unit input into clear user flows, page structures, and scalable UI direction — balancing user needs, business priorities, technical feasibility, and delivery constraints. Earlier, at OKAPI:Orbits, I redesigned SaaS collision-avoidance software for satellites and designed a new platform for space-traffic workflows.</p>
+<p>Studying and working across Poland, Italy, France, Germany, and Portugal has shaped an adaptable, cross-cultural way of collaborating. I'm increasingly focused on the product side — defining what to build and why, not just how it looks.</p>
+<div class="currently">
+<div class="lbl">Currently</div>
+<dl>
+<div><dt>Now</dt><dd>Product & UX · Hitachi Energy</dd></div>
+<div><dt>Certified</dt><dd>CSPO — Certified Scrum Product Owner</dd></div>
+<div><dt>Open to</dt><dd>Product Owner & UX/Product hybrid roles</dd></div>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="work">
+<div class="container">
+<div class="section-label">Selected Work</div>
+<h2 class="display">A small set of projects, chosen for the <em>thinking</em> behind them — not the pixels.</h2>
+<div style="margin-top:96px">
+<div class="case-study">
+<a class="case-link" href="assets/case-01.pdf" target="_blank" rel="noopener" aria-label="Open the COP homepage redesign case study PDF">
+<div class="case-visual v1"></div>
+<div class="case-overlay"><span>View case study (PDF) ↗</span></div>
+</a>
+<div class="case-content">
+<div class="case-num">01 — Hitachi Energy · Collaborative Operations Portal</div>
+<h3><a href="assets/case-01.pdf" target="_blank" rel="noopener">Redesigning the COP homepage into a role-aware command center</a></h3>
+<div class="case-problem">The problem</div>
+<p>A deprioritised homepage built on outdated assumptions — a dense directory of links with weak hierarchy and unclear terminology. Users couldn't tell what the portal offered or where to go after login.</p>
+<div class="case-problem">What I did</div>
+<p>Solo designer from research to deployment. Ran workflow-based interviews and embedded usability tests inside real portal flows, then designed a role- and subscription-aware homepage with lightweight KPI widgets — validated with developers early.</p>
+<div class="case-metric">
+<div><span class="num">3–4 mo</span><span class="lbl">Research to ship</span></div>
+<div><span class="num">Solo</span><span class="lbl">UX/UI, end-to-end</span></div>
+</div>
+<div class="case-tags"><span>Research</span><span>IA</span><span>UI design</span></div>
+</div>
+</div>
+<div class="case-study">
+<a class="case-link" href="assets/case-02.pdf" target="_blank" rel="noopener" aria-label="Open the COP Installed Base case study PDF">
+<div class="case-visual v2"></div>
+<div class="case-overlay"><span>View case study (PDF) ↗</span></div>
+</a>
+<div class="case-content">
+<div class="case-num">02 — Hitachi Energy · Installed Base + Sites</div>
+<h3><a href="assets/case-02.pdf" target="_blank" rel="noopener">Installed Base — a structure problem, not a screen redesign</a></h3>
+<div class="case-problem">The problem</div>
+<p>One Installed Base experience had to serve 6+ business units with different products, terminology and expectations — with no shared user model, legacy single-BU pages, and a portal-wide rebrand running in parallel.</p>
+<div class="case-problem">What I did</div>
+<p>Solo designer, end to end. Facilitated workshops, built proto-personas, ran card sorting that exposed the "Assets overload" risk before it shipped, and designed a scalable hierarchy that later absorbed new content with no rebuild.</p>
+<div class="case-metric">
+<div><span class="num" data-target="6" data-suffix="+">6+</span><span class="lbl">Business units</span></div>
+<div><span class="num">~6 mo</span><span class="lbl">Discovery to UI</span></div>
+</div>
+<div class="case-tags"><span>Card sorting</span><span>IA</span><span>Enterprise UX</span></div>
+</div>
+</div>
+<div class="case-study">
+<a class="case-link" href="assets/case-03.pdf" target="_blank" rel="noopener" aria-label="Open the satellite coordination platform case study PDF">
+<div class="case-visual v3"></div>
+<div class="case-overlay"><span>View case study (PDF) ↗</span></div>
+</a>
+<div class="case-content">
+<div class="case-num">03 — Okapi:Orbits · ESA-sponsored SaaS</div>
+<h3><a href="assets/case-03.pdf" target="_blank" rel="noopener">CASCADE — a coordination platform for satellite operators</a></h3>
+<div class="case-problem">The problem</div>
+<p>Satellite operators couldn't easily trust or reach their conjunction partners, and had to make fast collision-avoidance decisions across scattered tools. The goal: one place for communication, data sharing and conjunction coordination.</p>
+<div class="case-problem">What I did</div>
+<p>Led research and design for the ESA-sponsored MVP. Ran UX workshops, mapped user flows and a priority matrix, built lo-fi to hi-fi wireframes, then validated with in-depth interviews with 11 operators across England, France and Italy.</p>
+<div class="case-metric">
+<div><span class="num" data-target="11">11</span><span class="lbl">Operators interviewed</span></div>
+<div><span class="num" data-target="3">3</span><span class="lbl">Countries</span></div>
+</div>
+<div class="case-tags"><span>Research</span><span>Product</span><span>SaaS</span></div>
+</div>
+</div>
+<div class="case-study">
+<a class="case-link" href="assets/case-04.pdf" target="_blank" rel="noopener" aria-label="Open the space weather widget case study PDF">
+<div class="case-visual v4"></div>
+<div class="case-overlay"><span>View case study (PDF) ↗</span></div>
+</a>
+<div class="case-content">
+<div class="case-num">04 — Okapi:Orbits · OKAPI Platform</div>
+<h3><a href="assets/case-04.pdf" target="_blank" rel="noopener">A space weather widget for safer maneuver decisions</a></h3>
+<div class="case-problem">The problem</div>
+<p>Operators relied on multiple space-weather sources that were time-consuming and hard to interpret — slowing the maneuver decisions that depend on accurate, real-time conditions.</p>
+<div class="case-problem">What I did</div>
+<p>Benchmarked existing platforms, ran workshops to define needs and prioritise features, and designed a focused widget. After feedback from aerospace engineers, surfaced Radio Blackouts and Solar Radiation Storms as values with a three-day forecast.</p>
+<div class="case-metric">
+<div><span class="num">3-day</span><span class="lbl">Forecast at a glance</span></div>
+<div><span class="num">Real-time</span><span class="lbl">Space weather data</span></div>
+</div>
+<div class="case-tags"><span>Benchmarking</span><span>Data viz</span><span>UI design</span></div>
+</div>
+</div>
+</div>
+<p style="margin-top:64px;color:var(--ink-mute);font-size:14px;text-align:center"><span class="sig">✦</span>  Click any project to open the full case study.</p>
+</div>
+</section>
+<section id="capabilities">
+<div class="container">
+<div class="section-label">Capabilities</div>
+<h2 class="display">Product thinking, grounded in design <em>craft.</em></h2>
+<div class="cap-grid">
+<div class="cap-col">
+<h3><em>Product</em> & strategy</h3>
+<ul>
+<li>Product discovery & problem framing</li>
+<li>Requirements clarification</li>
+<li>Stakeholder workshops & alignment</li>
+<li>Information architecture</li>
+<li>Agile collaboration & delivery</li>
+<li>Product Ownership <span>CSPO</span></li>
+</ul>
+</div>
+<div class="cap-col">
+<h3><em>Design</em> & research</h3>
+<ul>
+<li>UX/UI design</li>
+<li>User research & interviews</li>
+<li>Usability testing</li>
+<li>Card sorting</li>
+<li>Design systems</li>
+<li>Prototyping <span>Figma</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="testimonials" class="testimonials-section">
+<div class="container">
+<div class="section-label">What people say</div>
+<h2 class="display">Words from the people I've <em>built with.</em></h2>
+<div class="testimonials">
+<div class="testimonial">
+<blockquote>One of the most user-focused UI/UX professionals I've met. She has a remarkable ability to step into the shoes of the end user and translate complex business requirements into intuitive experiences — her wireframes and mockups make it easy for developers to align on the vision.</blockquote>
+<div class="attr"><strong>Grzegorz Pisarczyk</strong>Senior Business Analyst (CBAP), Hitachi Energy</div>
+</div>
+<div class="testimonial">
+<blockquote>Working with Oliwia was a fantastic experience. She places significant importance on the discovery phase, making sure to understand the end user's perspective and how they'll use the application. Her ability to collaborate with both developers and stakeholders ensures seamless project execution.</blockquote>
+<div class="attr"><strong>Marcin Białowąs</strong>Product Owner & Chief Software Development Engineer, Hitachi Energy</div>
+</div>
+<div class="testimonial">
+<blockquote>I implemented Oliwia's UI/UX designs as a fullstack developer. Very creative and meticulous — her designs were always visually appealing and user-friendly, and she adjusted them based on practical implementation feedback. A great asset to any team seeking top-notch designs.</blockquote>
+<div class="attr"><strong>Mohamed Ghanem</strong>Fullstack Developer, Okapi:Orbits</div>
+</div>
+</div>
+</div>
+</section>
+<section id="contact" class="contact">
+<div class="container">
+<div class="section-label">Get in touch</div>
+<h2>Let's <em>talk.</em></h2>
+<p style="font-size:20px;color:var(--ink-soft);max-width:580px;margin-bottom:56px;line-height:1.5">If you're hiring for a Product Owner, UX/UI, product, or UX/Product hybrid role — I'd like to hear about it.</p>
+<a class="contact-email" href="mailto:oliwiaakonieczna@gmail.com">oliwiaakonieczna@gmail.com</a>
+<div class="contact-links">
+<a href="https://www.linkedin.com/in/oliwia-konieczna/" target="_blank" rel="noopener">LinkedIn <span class="sig">↗</span></a>
+</div>
+</div>
+</section>
+<footer>
+<div><span class="sig">✦</span> © 2026 Oliwia Konieczna</div>
+<div>Designed & built with care</div>
+</footer>
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+<script>
+var nav=document.getElementById('nav'),toTop=document.getElementById('toTop');
+window.addEventListener('scroll',function(){
+if(nav)nav.classList.toggle('scrolled',window.scrollY>40);
+if(toTop)toTop.classList.toggle('visible',window.scrollY>600);
+});
+if(toTop)toTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+if('IntersectionObserver' in window){
+var numIO=new IntersectionObserver(function(entries){
+entries.forEach(function(e){
+if(!e.isIntersecting||e.target.dataset.counted)return;
+e.target.dataset.counted='1';
+var el=e.target,target=parseFloat(el.dataset.target);
+var prefix=el.dataset.prefix||'',suffix=el.dataset.suffix||'',start=performance.now();
+(function tick(now){
+var t=Math.min(1,(now-start)/1400),eased=1-Math.pow(1-t,3);
+el.textContent=prefix+Math.round(target*eased)+suffix;
+if(t<1)requestAnimationFrame(tick);else el.textContent=prefix+target+suffix;
+})(start);
+});
+},{threshold:0.5});
+document.querySelectorAll('.case-metric .num[data-target]').forEach(function(el){numIO.observe(el);});
+}
+</script>
+</body>
+</html>
